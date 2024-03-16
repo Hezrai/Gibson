@@ -1,24 +1,35 @@
-Spring Boot 2 OAuth2 Application
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Boot 2 OAuth2 Application</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
 
-Este é um projeto Spring Boot que demonstra a configuração básica de autenticação OAuth2.
-Configuração
+<div style="text-align: center;">
+    <h1><i class="fab fa-spring"></i> Spring Boot 2 OAuth2 Application <i class="fab fa-keycdn"></i></h1>
+    <p>Este é um projeto Spring Boot que demonstra a configuração básica de autenticação OAuth2.</p>
+</div>
 
-O projeto utiliza propriedades OAuth2 armazenadas em um arquivo application.properties para configurar o serviço de autenticação.
-Endpoints
-/userJwt
+<h2>Configuração</h2>
+<p>O projeto utiliza propriedades OAuth2 armazenadas em um arquivo <code>application.properties</code> para configurar o serviço de autenticação.</p>
 
-Este endpoint retorna informações sobre o usuário autenticado usando JWT (JSON Web Token).
-/userRedis
+<h2>Endpoints</h2>
 
-Este endpoint retorna informações sobre o usuário autenticado usando Redis para armazenamento de sessão.
-/user/me
+<ul>
+    <li><strong>/userJwt</strong>: Este endpoint retorna informações sobre o usuário autenticado usando JWT (JSON Web Token).</li>
+    <li><strong>/userRedis</strong>: Este endpoint retorna informações sobre o usuário autenticado usando Redis para armazenamento de sessão.</li>
+    <li><strong>/user/me</strong>: Este endpoint retorna o usuário autenticado.</li>
+</ul>
 
-Este endpoint retorna o usuário autenticado.
-Como executar
+<h2>Como executar</h2>
+<p>Para executar o projeto, você pode usar o comando <code>mvn spring-boot:run</code> ou executar a classe <code>SpringBoot2Oauth2Application.java</code> diretamente em sua IDE.</p>
+<p>Certifique-se de que o JDK configurado é compatível com o projeto e de que as dependências necessárias estão instaladas.</p>
 
-Para executar o projeto, você pode usar o comando mvn spring-boot:run ou executar a classe SpringBoot2Oauth2Application.java diretamente em sua IDE.
+<h2>Autor</h2>
+<p>Este projeto foi desenvolvido por [seu nome aqui].</p>
 
-Certifique-se de que o JDK configurado é compatível com o projeto e de que as dependências necessárias estão instaladas.
-Autor
-
-Este projeto foi desenvolvido por MelGibson
+</body>
+</html>
