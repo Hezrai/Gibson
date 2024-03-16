@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spring Boot 2 OAuth2 Application</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-</head>
-<body>
+ 
 
 <div style="text-align: center;">
     <h1><i class="fab fa-spring"></i> Spring Boot 2 OAuth2 Application <i class="fab fa-keycdn"></i></h1>
@@ -29,7 +21,6 @@
 <p>Certifique-se de que o JDK configurado é compatível com o projeto e de que as dependências necessárias estão instaladas.</p>
 
 <h2>Autor</h2>
-<p>Este projeto foi desenvolvido por [seu nome aqui].</p>
+<p>Este projeto foi desenvolvido por MelGibson.</p>
 
-</body>
-</html>
+ 
