@@ -19,5 +19,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_STRING" value="-Xlint:deprecation" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="authorization-server" options="" />
+      <module name="resource-server" options="" />
+      <module name="springboot2.0-oauth2" options="" />
+    </option>
   </component>
 </project>

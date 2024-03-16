@@ -1,4 +1,4 @@
-# GibsonSpring Boot 2 OAuth2 Application
+Spring Boot 2 OAuth2 Application
 
 Este é um projeto Spring Boot que demonstra a configuração básica de autenticação OAuth2.
 Configuração
@@ -21,4 +21,4 @@ Para executar o projeto, você pode usar o comando mvn spring-boot:run ou execut
 Certifique-se de que o JDK configurado é compatível com o projeto e de que as dependências necessárias estão instaladas.
 Autor
 
-Este projeto foi desenvolvido por [seu nome aqui].
+Este projeto foi desenvolvido por MelGibson
